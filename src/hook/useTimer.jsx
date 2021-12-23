@@ -29,10 +29,10 @@ function useTimer({ initialValue = 0 }) {
     setValue(initialValue);
   };
 
-  useEffect(() => {
-    // * cleanup
-    return pauseTimer;
-  });
+//   useEffect(() => {
+//     // * cleanup
+//     return pauseTimer;
+//   });
 
   return { value, startTimer, pauseTimer, resetTimer };
 }
